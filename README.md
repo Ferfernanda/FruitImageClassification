@@ -20,20 +20,37 @@ Dataset splitted by 80% Data Train, 20% Data Test
 ## File Structure
 FruitImageClassification
 ├───Model
+
 |   ├───saved_model.pb
+
 |   ├───fingerprint.pb
+
 |   └───variables
+
 |       ├───variables.data-00000-of-00001
+
 |       └───variables.index
+
 ├───tfjs_model
+
 |   ├───group1-shard1of3.bin
+
 |   ├───group1-shard2of3.bin
+
 |   ├───group1-shard3of3.bin
+
 |   └───model.json
+
 ├───tflite
+
 |   ├───FruitClassification_MobileNetV2.tflite
+
 |   └───label.txt
+
 ├───.gitattributes
+
 ├───README.md
+
 ├───FruitImageClassification.ipynb
+
 └───requirements.txt
